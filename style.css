@@ -1,0 +1,102 @@
+html, body {
+  background-image: url('https://images.unsplash.com/photo-1643303808869-ecfbf62fe81e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80');
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-style: solid;
+  border-color: #FF9505;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: 'Corben', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #FF9505;
+  }
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(48, 48, 48);
+  font-weight: 300;
+  font-size: 15px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #FF9505;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.container {
+  width: 40%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(150, 59, 134, 0.144);
+  padding: 1px;
+}
+
+.card {
+  border-radius: 5px;
+  margin: 20px;
+  padding: 2px;
+}
+
+.button {
+  margin: 5px, 15px;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: white;
+  background-color: #FF9505;
+  padding: 8px;
+  border-radius: 5%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+#icons {
+  color: white;
+  font-size: 40px;
+}
+
+#icons:hover {
+  color: #FF9505;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
